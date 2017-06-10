@@ -6,7 +6,7 @@ This shell script creates a distributable image from a Raspberry Pi SD card.
 While this script *should not* be destructive, it modifies the filesystem and
 partition table.
 
-It can be run like this:
+It can be run like this on a linux machine:
 
 ```
 bash mkimg.sh /dev/sda sdcard.img.zip
